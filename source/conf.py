@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'StduinoWiki'
-copyright = '2020, Stduno'
-author = 'Astil'
+copyright = '2020, Stduino'
+author = 'Astilbe'
 master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------

@@ -19,9 +19,10 @@ Stduino快速开发教程
 	
 	FUNCTION/chart1
 	Computation/chart2
-	chart3
+	Variable/varIndex
 	chart4
 	workDiary
+	
    
 
 Stduino简介

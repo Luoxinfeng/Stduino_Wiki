@@ -1,13 +1,11 @@
-======================
-拓展(Advance) I/O 函数
-======================
+================
+数据类型
+================
 .. toctree::
 	:maxdepth: 1
 	
-	noTone
-	tone
-	shiftIn
-	shiftOut
+	string
+
 
 	
 
