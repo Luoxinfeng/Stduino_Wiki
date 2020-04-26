@@ -4,7 +4,8 @@
 .. toctree::
 	:maxdepth: 1
 	
-	string
+	stringArray
+	stringObject
 
 
 	
