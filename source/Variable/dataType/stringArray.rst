@@ -15,12 +15,14 @@ string-char数组
 =====
 以下节为有效的字符串。
 
-- char Str1[15];//声明一个五个字符大小的char数组
-- char Str2[8] = {'S', 't', 'd', 'u', 'i', 'n', 'o'};//声明一个字符数组，并为其赋值
-- char Str3[8] = {'S', 't', 'd', 'u', 'i', 'n', 'o', '\0'};//添加空字符
-- char Str4[] = "Stduino";//声明一个空数组，并赋值
-- char Str5[8] = "Stduino";//声明8个字符长度的数组，并赋值
-- char Str6[15] = "Stduino";
+.. code:: c
+
+	char Str1[15];//声明一个五个字符大小的char数组
+	char Str2[8] = {'S', 't', 'd', 'u', 'i', 'n', 'o'};//声明一个字符数组，并为其赋值
+	char Str3[8] = {'S', 't', 'd', 'u', 'i', 'n', 'o', '\0'};//添加空字符
+	char Str4[] = "Stduino";//声明一个空数组，并赋值
+	char Str5[8] = "Stduino";//声明8个字符长度的数组，并赋值
+	char Str6[15] = "Stduino";
 
 
 
