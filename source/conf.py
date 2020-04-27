@@ -19,7 +19,7 @@
 
 project = 'StduinoWiki'
 copyright = '2020, Stduino'
-author = 'Astilbe'
+author = 'Stduino'
 master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
