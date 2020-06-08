@@ -31,19 +31,19 @@ value:占空比，在0~255之间。
 		
 		void setup()
 		{
-		  pinMode(analogPin,OUTPUT_PWM);//初始化
+		  pinMode(analogPin,OUTPUT_PULSE);//初始化
 		}
 
 		void loop() 
 		{
-		  for(int i=0; i<256; i++) 
+		  for(int i=0; i<4096; i++) 
 		  {
 			//for循环语句，让亮度从0到255
 			analogWrite(analogPin,i);
 			delay(15);//变化太快可能看不清
 		  }
 			
-		  for(int i=255;i>-1;i--) 
+		  for(int i=4095;i>-1;i--) 
 		  {
 			//for循环语句，让亮度从255到0
 			analogWrite(analogPin,i);

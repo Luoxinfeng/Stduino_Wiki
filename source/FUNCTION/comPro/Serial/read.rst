@@ -28,18 +28,18 @@ Serial1.read()
 	int newByte = 0;   // 传入的串行数据
 	void setup() 
 	{
-	 Serial1.begin(9600);     // 打开串口，设置数据传输速率9600
+	 Serial.begin(9600);     // 打开串口，设置数据传输速率9600
 	}
 	 
 	void loop() 
 	{
-	 if (Serial1.available() > 0) 
+	 if (Serial.available() > 0) 
 	{// 如果接收到数据
 	 newByte = Serial.read();// 读取传入的数据:
 			
 	 //打印得到的数据
-	 Serial1.print("I received: ");
-	 Serial1.println(newByte);
+	 Serial.print("I received: ");
+	 Serial.println(newByte);
 	}
 	}
 

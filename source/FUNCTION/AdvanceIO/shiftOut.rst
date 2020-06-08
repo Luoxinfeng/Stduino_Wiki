@@ -46,17 +46,17 @@ Stduino外接74HC595芯片，用3个IO口控制8路LED灯。
 
 	void setup ()
 	{
-	  pinMode(D10, OUTPUT);//锁存引脚
-	  pinMode(D9, OUTPUT);//时钟引脚
-	  pinMode(D8, OUTPUT); //数据引脚
+	  pinMode(10, OUTPUT);//锁存引脚
+	  pinMode(9, OUTPUT);//时钟引脚
+	  pinMode(8, OUTPUT); //数据引脚
 	}
 	void loop()
 	{
 	  for (int data = 0; data < 255; data++)
 	  {
-		digitalWrite(D10, LOW); //将ST_CP口上加低电平让芯片准备好接收数据
-		shiftOut(D8, D9, LSBFIRST, data);
-		digitalWrite(D10, HIGH); //将ST_CP这个针脚恢复到高电平
+		digitalWrite(10, LOW); //将ST_CP口上加低电平让芯片准备好接收数据
+		shiftOut(8, 9, LSBFIRST, data);
+		digitalWrite(10, HIGH); //将ST_CP这个针脚恢复到高电平
 		delay(1000); //延迟1秒钟观看显示
 	  }
 	}

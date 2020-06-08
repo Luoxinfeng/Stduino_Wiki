@@ -1,5 +1,5 @@
 +++++++++++++++++++
-delayMicrosecond()
+delayMicroseconds()
 +++++++++++++++++++
 
 描述
@@ -12,7 +12,7 @@ delayMicrosecond()
 
 语法
 =====
-delayMicrosecond(us)
+delayMicroseconds(us)
 
 
 参数
@@ -39,9 +39,9 @@ us:延迟的以微秒为单位的时间
 
 		void loop() {
 			digitalWrite(D13,LOW);   //LED灯亮
-			delayMicrosecond(1000);  //保持LED灯亮1000微秒
+			delayMicroseconds(1000);  //保持LED灯亮1000微秒
 			digitalWrite(D13,HIGH);  //LED灯灭
-			delayMicrosecond(1000);  //保持LED灯灭1000微秒
+			delayMicroseconds(1000);  //保持LED灯灭1000微秒
 		}
 
 

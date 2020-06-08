@@ -30,20 +30,21 @@ pin: 所要停止产生声音接了扬声器等元件的引脚
 
 	void setup() 
 	{
-		
+		pinMode(A6,OUTPUT_PULSE);
+		pinMode(A7,OUTPUT_PULSE)
 	}
 	 
 	void loop() 
 	{  
-	 tone(A6, 440);  //6号引脚发声200毫秒
-	 delay(200);
-	 noTone(A6);   //停止6号引脚发声
+		tone(A6, 440);  //A6号引脚发声200毫秒
+		delay(200);
+		noTone(A6);   //停止A6号引脚发声
 		
-	 tone(A7, 494); //7号引脚发声500毫秒
-	 delay(500);
-	 noTone(A7); //停止7号引脚发声
+		tone(A7, 494); //A7号引脚发声500毫秒
+		delay(500);
+		noTone(A7); //停止A7号引脚发声
 
-	 delay(300);
+		delay(300);
 
 	}
 

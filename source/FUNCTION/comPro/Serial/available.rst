@@ -21,7 +21,7 @@ Serial.available()
 
 例程
 ====
-以下例程实现Stduino与电脑间串口通讯，利用Serial1.available()判断串口是否初始化。
+以下例程实现Stduino与电脑间串口通讯，利用Serial.available()判断串口是否初始化。
 
 .. code:: c
 

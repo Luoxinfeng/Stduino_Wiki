@@ -18,3 +18,5 @@
 2020/3/7 
  - 增加了位操作的两个函数bitRead()和bitWrite();时间函数的delayMicrosecond()和millis();
 
+2020/6/8
+ - analogWrite 输出应该分两种写 以及明确输出量范围，是否去掉OUTPUT_ANALOG

@@ -22,8 +22,6 @@ mode:可选择以下模式设置。
 |输出模式 | OUTPUT      | 推挽输出      |
 |         +-------------+---------------+
 |         |OUTPUT_PULSE |脉冲输出       |
-|         +-------------+---------------+
-|         |OUTPUT_ANALOG|PWM输出        |
 +---------+-------------+---------------+
 |输入模式 |   INPUT     | 浮空输入      |
 |         +-------------+---------------+
@@ -58,9 +56,9 @@ mode:可选择以下模式设置。
 
 	void loop()
 	{
-	 digitalWrite(LedPin,LOW);//灯引脚输出状态更改为高电平
+	 digitalWrite(LedPin,LOW);//灯引脚输出状态更改为低电平
 	 delay(1000);//维持现有状态1000ms
-	 digitalWrite(LedPin,HIGH);//灯引脚输出状态更改为低电平
+	 digitalWrite(LedPin,HIGH);//灯引脚输出状态更改为高电平
 	 delay(1000);//维持现有状态1000ms
 	}
  
