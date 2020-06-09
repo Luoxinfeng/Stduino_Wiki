@@ -13,7 +13,7 @@ Hello!
 
 Stduino简介
 ==========
-Stduino是基于C语言封装的微控制器开发语言，其与Arduino语言有着非常多的相似之处。如果您使用过Arduino语言，您可以快速使用Stduino语言。
+Stduino是基于C/C++封装的微控制器开发语言，其与Arduino语言有着非常多的相似之处。如果您使用过Arduino语言，您可以快速使用Stduino语言。
 
 Stduino可以便捷开发包括STM32F103系列在内的微控制器，为您省去大量琐碎的底层操作，从而把注意力放在更重要的部分。
 

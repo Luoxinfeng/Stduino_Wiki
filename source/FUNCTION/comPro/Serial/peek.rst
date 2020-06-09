@@ -11,7 +11,7 @@ peek()
 
 语法
 =====
-Seria.peak()
+Seria.peek()
 
 
 参数
@@ -20,17 +20,17 @@ Seria.peak()
 
 返回
 ====
-返回传入的串口数据的第一个字节（char*类型）\
+返回传入的串口数据的第一个字节（String类型）\
 （如果没有可用的数据，则返回-1）
 
 例程
 =====
 本例程利用peek()方法打印接受到的信号\
-由于peek()读取的时候不会清楚缓存，因而每一次打印的数据是不变的。
+由于peek()读取的时候不会清除缓存，而是直接将缓存中的数据复制一份。
 
 .. code:: c
 
-	char* newChar = 0;   // 传入的串行数据
+	String newChar= "";   // 传入的串行数据
 	void setup() 
 	{
 	 Serial.begin(9600);     // 打开串口，设置数据传输速率9600
@@ -38,7 +38,7 @@ Seria.peak()
 	 
 	void loop() 
 	{
-	 if (Serial.available() > 0) 
+	 if (Serial.available()) 
 	{// 如果接收到数据
 	 newChar = Serial.peek();// 读取传入的数据:
 			
