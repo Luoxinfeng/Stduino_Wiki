@@ -7,7 +7,7 @@
 	
 	delay
 	millis
-	delayMicrosecond
+	delayMicroseconds
 	micros
 
 
